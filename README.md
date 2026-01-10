@@ -1,2 +1,3 @@
 # to-do-list
-Atividade para treinar logica 
+
+Atividade para treinar logica.
