@@ -1,0 +1,56 @@
+/* ESTILIZANDO PROJETO COM CSS*/
+
+/* Estilização do body*/
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: #2d2d2d;
+   color: white;
+}
+
+/* Estilização do Container*/
+
+.container {
+   height: 400px;
+   width: 300px;
+   background-color: aqua;
+   text-align: center;
+}
+.input-container {
+   height: auto;
+   width: auto;
+}
+/* Estilização input*/
+#tarefaInput {
+   border-radius: 10px;
+   outline-color: none;
+   padding: 10px;
+}
+
+/* Estilização button*/
+button {
+   padding: 8px;
+   height: 35px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #bbc0c0;
+}
+/* Estilização Div/Lista*/
+#listaTarefas {
+   display: flex;
+   flex-direction: column;
+}
+.tarefa-item {
+   background-color: blueviolet;
+   display: flex;
+   flex-direction: column;
+}
+.receberTarefas {
+   height: 300px;
+}
