@@ -19,4 +19,4 @@ adicionar.addEventListener("click", () => {
 });
 
 // Botão para remover tarefas
-remover.addEventListener("click", valorInput);
+// remover.addEventListener("click", valorInput);
